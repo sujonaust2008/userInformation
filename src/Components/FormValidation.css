@@ -1,0 +1,33 @@
+.formPageStyle {
+    width: 85%;
+
+}
+
+.formStyle {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(4, 1fr) 50px;
+}
+
+.formBorderStyle {
+    border: 1px solid none;
+}
+
+.formBorderStyle:hover {
+    border: 2px solid blue;
+}
+
+.imgStyle {
+    border: none;
+    background-color: #4B7EFF;
+    border-radius: 50%;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.BtnStyle {
+    border-radius: 50%;
+    width: 50%;
+
+}
